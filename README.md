@@ -34,9 +34,9 @@ This VET-CLINIC project is all about making it easy to handle information at a v
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- **[CREATE-DATABSE]**
-- **[CREATE-TABLE]**
-- **[POPULATE-TABLE]**
+- **CREATE-DATABSE**
+- **CREATE-TABLE**
+- **POPULATE-TABLE**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +78,7 @@ Example commands:
 
 ## 🔭Features <a name="future-features"></a>
 
-- **[Additional Queries]**
+- **Additional Queries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
