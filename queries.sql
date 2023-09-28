@@ -9,13 +9,18 @@ SELECT * FROM animals WHERE weight_kg >= 10.4 AND weight_kg <= 17.3;
 
 --Task 2
 BEGIN;
-UPDATE animals SET species = 'unspecified';
+UPDATE animals
+SET species = 'unspecified';
+SELECT species from animals; 
 ROLLBACK;
+SELECT species from animals;
 
 BEGIN;
-UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
-UPDATE animals SET species = 'pokemon' WHERE species IS NULL OR species = '';
+UPDATE animals SET species='digimon' WHERE name LIKE '%mon';
+UPDATE animals SET species='pokemon' WHERE name LIKE IS NULL;
+SELECT * FROM animals;
 COMMIT;
+SELECT * FROM animals;
 
 BEGIN;
 DELETE FROM animals;
