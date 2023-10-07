@@ -1,3 +1,5 @@
+
+![schema](https://github.com/mershark/vet-clinic-database/assets/113654948/132b82bf-7a54-4952-a1b1-56c54c0a3486)
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
